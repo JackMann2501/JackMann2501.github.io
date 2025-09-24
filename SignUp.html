@@ -1,6 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up - SOUTHWOODS CHRONICLE</title>
+        <script>
+            function createAccount() {
+                const Firstname = document.getElementById("FirstnameInput");
+                const Lastname = document.getElementById("LastnameInput");
+                const Username = document.getElementById("UsernameInput");
+                const Password = document.getElementById("PasswordInput");
+                const Email = document.getElementById("EmailInput");
+            }
+        </script>
+    </head>
     <body>
         <h1>SOUTHWOODS CHRONICLE SignUp Form</h1>
+        <input type="text" placeholder="Firstname" id="FirstnameInput"><br><br>
+        <input type="text" placeholder="Lastname" id="LastnameInput"><br><br>
+        <input type="text" placeholder="Username" id="UsernameInput"><br><br>
+        <input type="text" placeholder="Password" id="PasswordInput"><br><br>
+        <input type="email" placeholder="Email" id="EmailInput"><br><br>
+        <button onclick="createAccount()">Create Account</button>
     </body>
 </html>
